@@ -1,0 +1,41 @@
+.wrapper{
+    height: 100vh;
+    /* This is the $hit that gets your browser the ability to scroll. Without it, everything will be stuck at the top*/
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    background-image: url('https://images.unsplash.com/photo-1603001464057-8cc206124c72?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYyNTAwMzM0NA&ixlib=rb-1.2.1&q=85');
+  }
+  
+  .psychedelic-writing{
+    width: 22ch;
+    animation: typing 3s steps(27), blink .7s step-end infinite alternate;
+    white-space: no-wrap;
+    overflow: hidden;
+    border-right: 4px solid;
+    font-family: georgia;
+    font-space: 2.3em;
+    font-size: 2.3em;
+    color: white;
+  }
+  
+  @keyframes typing{
+    from {
+      width: 0
+    }
+  }
+  
+  @keyframes blink {
+    70% {
+      border-color: transparent;
+    }
+  }
+  
+  .footer{
+    padding: 24px;
+    font-family: georgia;
+    color: white;
+    background-color: black;
+    font-size: 18px;
+    text-align: center;
+  }
